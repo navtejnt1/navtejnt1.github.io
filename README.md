@@ -1,4 +1,4 @@
 # portfolio_NT
 
 #Deployed link:
-https://navtejnt1.github.io/portfolio_NT/
+https://navtejnt1.github.io/
