@@ -134,7 +134,7 @@ section .title::after {
 /* menu btn styling */
 .menu-btn {
   color: #fff;
-  font-size: 23px;
+  font-size: 33px;
   cursor: pointer;
   display: none;
 }
