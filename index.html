@@ -76,7 +76,7 @@
 
 
     <!-- Projects  -->
-    <div id="portfolio" class="title">
+    <!-- <div id="portfolio" class="title">
       <div class="container max-width">
           <h1 class="title">Projects</h1>
           <div class="work-list">
@@ -104,86 +104,17 @@
                       <a href="https://65142be051d2c92034e57797--starlit-quokka-c12c53.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
                   </div>
               </div>
-              <!-- <div class="work">
-                  <img src="images/amazon.png">
-                  <div class="layer">
-                      <h3>Amazon Clone</h3>
-                      <p>Check it out on github</p>
-                      <a href="https://github.com/Dayswelive/Amazon-Website-Clone"><i class="fa-solid fa-up-right-from-square"></i></a>
-                  </div>
-              </div>
-              <div class="work">
-                  <img src="images/weather.jpg">
-                  <div class="layer">
-                      <h3>Weather Application</h3>
-                      <p>Check it out on Github Pages</p>
-                      <a href="https://dayswelive.github.io/Check-your-place-weather/"><i class="fa-solid fa-up-right-from-square"></i></a>
-                  </div>
-              </div>
-              <div class="work">
-                  <img src="images/weather-app.jpg">
-                  <div class="layer">
-                      <h3>Workout Tracker</h3>
-                      <p>Check it out on Github Pages</p>
-                      <a href="https://dayswelive.github.io/Workout-Checker/"><i class="fa-solid fa-up-right-from-square"></i></a>
-                  </div>
-              </div>
-              <div class="work">
-                  <img src="images/universe.jpg">
-                  <div class="layer">
-                      <h3>Exoplanet Tracker</h3>
-                      <p>Check it out on Github</p>
-                      <a href="https://github.com/Dayswelive/Search-Exoplanet"><i class="fa-solid fa-up-right-from-square"></i></a>
-                  </div>
-              </div>
-              <div class="work">
-                  <img src="images/worldmap.jpg">
-                  <div class="layer">
-                      <h3>Find Country</h3>
-                      <p>Check it out on Github Pages</p>
-                      <a href="https://dayswelive.github.io/Rest-Countries-Application/"><i class="fa-solid fa-up-right-from-square"></i></a>
-                  </div>
-              </div> -->
               
           </div>
           <a href="https://github.com/navtejnt1" class="btn" target="_blank">See more..</a>
       </div>
-  </div>
+  </div> -->
+
+  <div id="projects-container"></div>
+
     <!-- Projects End -->
 
-    <!-- services section start -->
-
-    <!-- <section class="services" id="services">
-        <div class="max-width">
-            <h2 class="title" style="color: black;">My Services</h2>
-            <div class="serv-content">
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">Web Design</div>
-                        <p>Crafting digital landscapes with CSS brushstrokes, I sculpt seamless user experiences using form and function of JavaScript. Frontend alchemist, turning code into captivating visual symphonies. I love crafting websites and improving the user experience.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fa-brands fa-react"></i>
-                        <div class="text">React websites </div>
-                        <p>
-                          Mastering the art of web alchemy, I weave interactive tales with React, orchestrate server symphonies in Express and Node, while MongoDB and Firebase lend their magic to the backend tapestry. Crafting digital realms, one line of code at a time.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fa-solid fa-database"></i>
-                        <div class="text">Database Management</div>
-                        <p>
-                          I build websites from scratch using React, and handle databases like SQL and MongoDB with ease. Crafting digital experiences, one line of code at a time. Good hand in C++ and also familier with JAVA. I love to play with tables.</p>
-                    </div>
-                </div>
-               </div>
-            </div>
-        </div>
-    </section> -->
+  
 
     <!-- skills section start -->
     <section class="skills" id="skills">
@@ -230,26 +161,7 @@
                         </div>
                         <div class="line react"></div>
                     </div>
-                    <!-- <div class="bars">
-                        <div class="info">
-                            <span>MySQL</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="line mysql"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>SEO Management</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="line SEO"></div>
-                    </div>
-                    <div class="bars"> -->
-                        <!-- <div class="info">
-                            <span>Firebase/MongoDB</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="line firebase"></div> -->
+                
                     </div>
                 </div>
             </div>
@@ -363,7 +275,7 @@
                         </div>
                     </form> -->
                     <div class="social-icons">
-                      <!-- <div><a href="https://www.facebook.com/suryansh.dev.144/" target="_blank" ><i class="fa-brands fa-facebook"></i></a></div> -->
+                      <!-- <div><a href=" " target="_blank" ><i class="fa-brands fa-facebook"></i></a></div> -->
                       <div> <a href="https://www.instagram.com/navtej_nt?igsh=YzAwZjE1ZTI0Zg==" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
                        <div><a href="https://www.linkedin.com/in/navtej-anand/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></div>
                       <div><a href="https://github.com/navtejnt1" target="_blank"><i class="fa-brands fa-github"></i></a></div>
@@ -381,6 +293,22 @@
     </footer>
     
     <script src="script.js"></script>
-    
+    <script>
+        // Function to load content from an external HTML file
+        function loadContent(url, containerId) {
+            var container = document.getElementById(containerId);
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    container.innerHTML = xhr.responseText;
+                }
+            };
+            xhr.open("GET", url, true);
+            xhr.send();
+        }
+
+        // Load Projects content into the #projects-container
+        loadContent('projects.html', 'projects-container');
+    </script>
 </body>
 </html>
