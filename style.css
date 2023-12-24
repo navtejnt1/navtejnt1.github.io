@@ -346,9 +346,9 @@ section .title::after {
 
 
 /* contact section styling */
-.contact {
+/* .contact {
   background-color: aqua;
-}
+} */
 .contact .title::after {
   content: "get in touch";
   color: #111;
@@ -479,14 +479,11 @@ footer span a:hover {
   }
 }
 @media (max-width: 947px) {
-  .menu-btn {
+  #menu-btn {
     display: block;
     z-index: 999;
   }
-  #menu-btn {
-    display: block; /* Add this rule to make it visible on small screens */
-  }
-  .menu-btn i.active:before {
+  #menu-btn i.active:before {
     content: "\f00d";
   }
   .navbar .menu {
@@ -596,8 +593,10 @@ footer span a:hover {
 }
 
 /* CSS */
-#portfolio {
+#projects {
   padding: 50px 0;
+  font-family: "Ubuntu", sans-serif;
+
 }
 .work-list {
   display: grid;
