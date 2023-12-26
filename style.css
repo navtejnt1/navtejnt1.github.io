@@ -170,9 +170,7 @@ section .title::after {
 .home {
   display: flex;
   background: url("images/bg3.webp") no-repeat center;
-  height: 100vh;
   color: black;
-  min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
   font-family: "Ubuntu", sans-serif;
@@ -225,12 +223,15 @@ section .title::after {
   width: 30%;
 }
 .about .about-content .left img {
+  margin-top: 100px !important;
+
   height: 375px;
   width: 300px;
   object-fit: cover;
   border-radius: 6px;
 }
 .about .about-content .right {
+  
   width: 60%;
 }
 .about .about-content .right .text {
@@ -594,6 +595,9 @@ footer span a:hover {
 
 /* CSS */
 #projects {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   padding: 50px 0;
   font-family: "Ubuntu", sans-serif;
 
