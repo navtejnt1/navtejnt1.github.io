@@ -116,8 +116,6 @@
       </div>
   </div> 
 
-  <!-- <div id="projects-container"></div> -->
-
     <!-- Projects End -->
 
   
@@ -174,49 +172,7 @@
         </div>
     </section>
 
-    <!-- teams section start -->
-    <!-- <section class="teams" id="teams">
-        <div class="max-width">
-            <h2 class="title" style="color: black;">My teams</h2>
-            <div class="carousel owl-carousel">
-                <div class="card">
-                    <div class="box">
-                        <img src="images/2.jpg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/3.jpg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/4.jpeg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/5.jpg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/6.jpg" alt="">
-                        <div class="text">Someone name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
+                 
 
     <!-- contact section start -->
     <section class="contact" id="contact" >
@@ -261,25 +217,6 @@
                 </div>
                 <div class="column right">
                     <div class="text socialmedia">Social Media Account</div>
-                    <!-- <form action="#">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" placeholder="Name" required>
-                            </div>
-                            <div class="field email">
-                                <input type="email" placeholder="Email" required>
-                            </div>
-                        </div>
-                        <div class="field">
-                            <input type="text" placeholder="Subject" required>
-                        </div>
-                        <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
-                        </div>
-                        <div class="button-area">
-                            <button type="submit" style="background-color: blue; border: blue;">Send message</button>
-                        </div>
-                    </form> -->
                     <div class="social-icons">
                       <!-- <div><a href=" " target="_blank" ><i class="fa-brands fa-facebook"></i></a></div> -->
                       <div> <a href="https://www.instagram.com/navtej_nt?igsh=YzAwZjE1ZTI0Zg==" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
@@ -294,43 +231,49 @@
     </section>
 
     <!-- footer section start -->
+
+    
+<!-- git section  -->
+
+<div  >
+
+    
+    
+
+    <section id="gitHubContent" class="react-activity-calendar">
+        <div class="max-width">
+            <h2 class="title">GitHub Stats</h2>
+            <div class="about-content" >
+
+                <div style="display: flex; text-align: center; gap: 40px;">
+                    <img id="github-stats-card"
+                    src="https://github-readme-stats.vercel.app/api?username=navtejnt1&show_icons=true&locale=en&theme=dark&layout=compact"
+                    alt="github-stats-card" />
+              
+                  <img src="https://github-readme-streak-stats.herokuapp.com?user=navtejnt1&theme=dark&layout=compact"
+                    id="github-streak-stats" alt="github-readme-streak-stats" />
+                </div>
+                
+                <div style="align-items: center; text-align: center; padding-top: 20px;">
+                    <img id="github-top-langs"
+                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=navtejnt1&theme=dark&layout=compact"
+                    alt="github-top-langs" />
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    
+</div>
+
+
     <footer>
          <span class="far fa-copyright"></span> Copyright © Navtej. Thank you for visiting my Portfolio website. Connect with me over socials..</span>
     </footer>
     
     <script src="script.js"></script>
-    <!-- <script>
-        // Function to load content from an external HTML file
-        function loadContent(url, containerId) {
-            var container = document.getElementById(containerId);
-            var xhr = new XMLHttpRequest();
-            xhr.onreadystatechange = function() {
-                if (xhr.readyState == 4 && xhr.status == 200) {
-                    container.innerHTML = xhr.responseText;
-                }
-            };
-            xhr.open("GET", url, true);
-            xhr.send();
-        }
-
-        // Load Projects content into the #projects-container
-        loadContent('projects.html', 'projects-container');
-    </script> -->
-
-
-    <!-- <script>
-        function downloadResumeAndRedirect() {
-          // Add your logic for downloading the resume here
-          // For example, you can trigger a download using JavaScript
-          var resumeLink = document.getElementById('resume-link-2');
-          var resumeLink1 = document.getElementById('resume-link-1');
-          resumeLink.click();
-          resumeLink1.click();
-      
-          // Redirect to the Google Drive link
-          window.open('https://drive.google.com/file/d/16YDAISbObtNEfhxkrletRfwoWhZaCmx6/view?usp=drive_link', '_blank');
-        }
-      </script> -->
+     
 
       <script>
       const btn1 = document.getElementById("resume-link-1")
