@@ -23,7 +23,9 @@
         <div class="max-width">
             <div class="logo"><a href="#"><span>Portfolio</span></a></div>
             <ul class="menu">
-                <li><a href="#resume"  id="resume-button-1" class="nav-link resume">Resume</a></li>
+                <li> <button id="resume-button-1" onclick="myFunction()" style="background: transparent; border:0px">
+                    <a id="resume-link-1" href="Navtej Anand-Full Stack Web Developer.pdf" target="blank" download>Resume</a>
+                  </button></li>
                 <li><a href="#home" id="menubtn" class="nav-link home">Home</a></li>
                 <li><a href="#about" id="menubtn" class="nav-link about">About</a></li>
                 <li><a href="#projects" id="menubtn" class="nav-link projects">Projects</a></li>
@@ -69,7 +71,10 @@
                           and back-end development, I'm eagerly seeking Software Development Engineer 
                           (SDE) opportunities to channel my coding passion into meaningful contributions 
                           to innovative projects.</p>
-                    <a href="https://drive.google.com/file/d/16YDAISbObtNEfhxkrletRfwoWhZaCmx6/view?usp=drive_link" target="_blank" id="resume-link-2">Download CV</a>
+                        <button id="resume-button-2" onclick="myFunction2()" style="background: transparent; border: 0px">
+                            <a id="resume-link-2" href="Navtej Anand-Full Stack Web Developer.pdf" target="_blank" class="menu-btn" download>Download CV</a>
+                        </button>
+                    <!-- <a href="https://drive.google.com/file/d/16YDAISbObtNEfhxkrletRfwoWhZaCmx6/view?usp=drive_link" target="_blank" id="resume-link-2">Download CV</a> -->
                 </div>
             </div>
         </div>
@@ -311,5 +316,38 @@
         // Load Projects content into the #projects-container
         loadContent('projects.html', 'projects-container');
     </script> -->
+
+
+    <!-- <script>
+        function downloadResumeAndRedirect() {
+          // Add your logic for downloading the resume here
+          // For example, you can trigger a download using JavaScript
+          var resumeLink = document.getElementById('resume-link-2');
+          var resumeLink1 = document.getElementById('resume-link-1');
+          resumeLink.click();
+          resumeLink1.click();
+      
+          // Redirect to the Google Drive link
+          window.open('https://drive.google.com/file/d/16YDAISbObtNEfhxkrletRfwoWhZaCmx6/view?usp=drive_link', '_blank');
+        }
+      </script> -->
+
+      <script>
+      const btn1 = document.getElementById("resume-link-1")
+        function myFunction() {
+          window.open(
+            "https://drive.google.com/file/d/16YDAISbObtNEfhxkrletRfwoWhZaCmx6/view?usp=drive_link"
+          )
+        }
+        
+        const btn2 = document.getElementById("resume-link-2")
+        function myFunction2() {
+          window.open(
+            "https://drive.google.com/file/d/16YDAISbObtNEfhxkrletRfwoWhZaCmx6/view?usp=drive_link"
+          )
+        }
+        </script>
+
+
 </body>
 </html>

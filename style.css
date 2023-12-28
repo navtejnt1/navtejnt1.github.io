@@ -43,6 +43,10 @@ section {
 footer {
   font-family: "Poppins", sans-serif;
 }
+
+#resume-button-1{
+  font-family: "Poppins", sans-serif;
+}
 .about .about-content,
 .services .serv-content,
 .skills .skills-content,
