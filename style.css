@@ -305,7 +305,7 @@ section .title::after {
   color: crimson;
   background: none;
 }
-.skills .skills-content .right .bars {
+.skills .skills-content .right .skills-card {
   margin-bottom: 15px;
 }
 .skills .skills-content .right .info {
